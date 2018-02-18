@@ -1,0 +1,50 @@
+/* ADD/REMOVE/CHANGE THEMES HERE */
+
+// Giving the default theme a name
+$body-bg-color: #465050;
+$body-color: #91a0a2;
+$theme-main-color: #119b81;
+$theme-hover-color: #10d1ad;
+
+@include theme-maker("dark",
+                (
+                        theme (
+                                bg $body-bg-color,
+                                color $body-color
+                        ),
+                        body (
+                                bg $body-bg-color,
+                                color $body-color
+                        ),
+                        header (
+                                bg #283232,
+                                logout (
+                                        bg $theme-main-color,
+                                        hover-bg $theme-hover-color
+                                ),
+                        ),
+                        sidebar (
+                                bg #283232,
+                                avatar (
+                                        bg $theme-main-color
+                                ),
+                                controls (
+                                        bg $theme-main-color,
+                                        btn (
+                                                color $theme-main-color,
+                                                border darken($theme-main-color, 5%),
+                                                active-bg $theme-hover-color,
+                                                active-color $theme-hover-color
+                                        )
+                                ),
+                                nav (
+                                        color $theme-hover-color,
+                                        sidebar-btn (
+                                                a(
+                                                                bg $theme-main-color
+                                                )
+                                        )
+                                )
+                        ),
+                )
+);

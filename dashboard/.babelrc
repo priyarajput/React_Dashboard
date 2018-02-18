@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "es2015-loose",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "react-hot-loader/babel",
+    "transform-runtime",
+    ["trace", {
+      "env": {
+        "production": {
+          "strip": true
+        }
+      }
+    }]
+  ],
+  "compact": true
+}

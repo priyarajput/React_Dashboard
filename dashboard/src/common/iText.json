@@ -1,0 +1,29 @@
+{
+  "dashborad":
+  {
+  "cmsTopDimensionViewInfo": "Top categories, tags and format/type, by the number of stories published.",
+  "cmsTopDimensionViewTitle": "Top CMS dimensions by content published",
+  "topAuthorInfo": "Top authors sorted by Author Performance Index (API). API is calculated by comparing each author’s performance (total pageviews/total published stories) against other authors. ",
+  "topAuthorUrlText": " API details ",
+  "topAuthorUrlLink": "http://pistats.readthedocs.io/en/latest/Key%20Concepts.html#author-performance-index-api",
+  "topAuthorTitle": "Top Authors",
+  "topStoryInfo1": "Top stories by “Page Views”, “Published Time” or “Push Sent time”. Each story can be viewed in detail by clicking on the story. The details include author name, push influenced views, story tags, categories and format/type of the story.",
+  "topStoryInfo2":"Graph in the story detail view can be used to analyze the page views by multiple dimensions, e.g. top countries, states, cities that are contributing most to the pageviews, for the story.", "topStoryTitle": "Top Content",
+  "dimensionPageViewInfo": " Top locations that are contributing most to total pageviews.",
+  "dimensionPageViewTitle": "Top dimension by pageviews",
+  "pushVsViewInfo": "Total stories published and total pageviews.",
+  "pushVsViewTitle": "Stories published and Pageviews",
+  "pushNotificationPerformanceInfo_1": "The first section has total push notifications sent  ",
+  "pushNotificationPerformanceUrl_1Text": " (reach) ",
+    "pushNotificationPerformanceUrl_1Link": "http://pistats.readthedocs.io/en/latest/",
+  "pushNotificationPerformanceInfo_2": "and how many of them were opened, the graph shows the push notification open numbers.",
+  "pushNotificationPerformanceUrl_2Text": " “new users” ",
+    "pushNotificationPerformanceUrl_2Link":"http://pistats.readthedocs.io/en/latest/",
+    "pushNotificationPerformanceInfo_3":"Second section shows ",
+  "pushNotificationPerformanceInfo_4": "who have installed the app.",
+    "pushNotificationPerformanceInfo_5":"Third section shows the page views in sessions initiated by user clicking on a push notification.",
+  "pushNotificationPerformanceTitle": "Push Notification performance",
+  "pushNotificationPerformanceUserDimensionInfo": "Push notification performance by geography. We can view push notifications opened by country, state or city.",
+  "pushNotificationPerformanceUserDimensionTitle": "Push notification performance"
+}
+}
